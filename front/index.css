@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f2502c;
+}
+
+.oculto{
+    display: none;
+}
+.imgcode{
+    display: block;
+    background-color: black;
+
+}
+.scanCode{
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border: solid 1px rgb(149, 144, 144);
+    border-radius: 15px;
+    text-align: center;
+    background-color: #fff8dc;
+    
+}
+.message{
+    font-size: 25px;
+    margin-top: 10px;
+    background-color: cornsilk;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cornsilk;
+}
+.btnForm{
+    background-color:cornsilk;
+    color: rgb(0, 0, 0);
+    border: solid 1px gray;
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.btnForm:hover{
+    background-color: #f2502c;
+    color: cornsilk;
+    border: solid 1px black;
+    cursor: pointer;
+}
+@keyframes extendInput {
+    0%   {width: 100px;}
+    25%  {width: 125px;}
+    50%  {width: 150px;}
+    100% {width: 200px;}
+  }
+.inputForm{
+    border:none;
+    background-color:cornsilk;
+    height: 30px;
+    width: 150px;
+    font-size: 15px;
+    color:#91c494;
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+.inputForm:focus{
+    border: black;
+    width: 160px;
+}
